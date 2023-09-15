@@ -1,0 +1,123 @@
+:root {
+    --App-Background: #E7DED5;
+    --Title-Color: #AC6730;
+    --Text-Brown: #40362F;
+    --Green-point: #829353;
+}
+
+body{
+    background-color: var(--App-Background);
+    font-style: normal;
+    font-weight: 600;
+}
+
+h1 {
+    color: var(--Title-Color);
+    font-size: 64px;
+    font-family: Inter;
+}
+
+h3 {
+    color: var(--Title-Color);
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;   
+}
+
+p {
+    font-size: 25px;
+}
+
+.navbar{
+    height: 102px; 
+    background-color: rgba(68, 94, 56, 1);    
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: 700; 
+    font-size: 22px;
+}
+
+.mission {
+    height: 80vh;
+    flex-shrink: 0;
+    background: url(/assets/ourMission.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.point {
+    background-color: var(--Green-point);
+    height: 82px;
+    color: white;
+}
+
+.your-point p {
+    margin-bottom: 0;
+}
+
+.pointwork {
+    height: 20vh;
+}
+
+.pointwork p {
+    color: var(--Green-point);
+    font-weight: 500px;
+}
+
+.offer {
+    height: 80vh;
+    flex-shrink: 0;
+    background-image: url(/assets/whatcwdo.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.best-seller {
+    height: 45vh;
+    flex-shrink: 0;
+    background-color: var(--Title-Color);
+    color: white;
+}
+
+.teamNsocial {
+    color: var(--Text-Brown);
+    font-size: 35px;
+    font-family: Inter;
+}
+
+.hovered-img:hover, .addCs:hover {
+    transform: scale(1.1);
+}
+
+.hovered-img, .addCs {
+    transition: .3s;
+}
+
+.btn-color {
+    background-color: var(--Text-Brown) !important;
+}
+
+/* footer */
+.link, a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.informasi {
+    color: #FFF; 
+    font-size: 16px;
+}
+
+.garis-bawah2{
+    height: 4px; 
+    background-color:  rgba(0, 0, 0, 0.50);
+}
